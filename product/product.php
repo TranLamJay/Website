@@ -3,20 +3,26 @@
         <div class="row g-0 gx-5 align-items-end">
             <div class="col-lg-6">
                 <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <h1 class="display-5 mb-3">Our Products</h1>
+                    <h1 class="display-5 mb-3">Welcome LamApple</h1>
                     <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
             </div>
             <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
                 <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill" href="#tab-1">Vegetable</a>
+                        <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill" href="#tab-1">IPhone</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-2">Fruits </a>
+                        <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-2">Ipad</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-3">MacBook</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-3">Apple Watch</a>
                     </li>
                     <li class="nav-item me-0">
-                        <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-3">Fresh</a>
+                        <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-3">Ipod</a>
                     </li>
                 </ul>
             </div>
@@ -25,9 +31,9 @@
             <div id="tab-1" class="tab-pane fade show p-0 active">
                 <div class="row g-4">
                     <?php
-                    $arr_gia = array( 8,45, 15);
-                    include_once './lib/UTils/Random.php';
-                    $price = $arr_gia[random_number($arr_gia)];
+                    // $arr_gia = array( 8,45, 15);
+                    // include_once './lib/UTils/Random.php';
+                    // $price = $arr_gia[random_number($arr_gia)];
                     for ($i = 0; $i < 5; $i++) {
                         echo '    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">';
                         echo '   <div class="product-item">';
@@ -36,9 +42,9 @@
                         echo '<div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>';
                         echo '</div>';
                         echo '<div class="text-center p-4">';
-                        echo '<a class = "d-block h5 mb-2" href = "">Fresh Tomato</a>';
-                        echo '<span class="text-primary me-1">$19.00</span> <span style = "color: '.getColor($price).'">'.$price.'</span>';
-                        echo '<span class = "text-body text-decoration-line-through">$29.00</span>';
+                        echo '<a class = "d-block h5 mb-2" href = "">Iphone 14 Pro Max</a>';
+                        echo '<span class="text-primary me-1">$1.999.00</span>'; //<span style = "color: '.getColor($price).'">'.$price.'</span>';
+                        echo '<span class = "text-body text-decoration-line-through">$2.100.00</span>';
                         echo '</div>';
                         echo '<div class = "d-flex border-top">';
                         echo '<small class="w-50 text-center border-end py-2">';
@@ -59,9 +65,9 @@
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
-                                <span class="text-primary me-1">$19.00</span>
-                                <span class="text-body text-decoration-line-through">$29.00</span>
+                                <a class="d-block h5 mb-2" href="">Iphone 14 Pro</a>
+                                <span class="text-primary me-1">$1.499.00</span>
+                                <span class="text-body text-decoration-line-through">$1.899.00</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
@@ -76,13 +82,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/iphone14-plus.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
-                                <span class="text-primary me-1">$19.00</span>
-                                <span class="text-body text-decoration-line-through">$29.00</span>
+                                <a class="d-block h5 mb-2" href="">Iphone 14 Plus</a>
+                                <span class="text-primary me-1">$999.00</span>
+                                <span class="text-body text-decoration-line-through">$1.199.00</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
@@ -97,13 +103,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/iphone14.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
-                                <span class="text-primary me-1">$19.00</span>
-                                <span class="text-body text-decoration-line-through">$29.00</span>
+                                <a class="d-block h5 mb-2" href="">Iphone 14</a>
+                                <span class="text-primary me-1">$899.00</span>
+                                <span class="text-body text-decoration-line-through">$1.099.00</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
@@ -118,13 +124,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/ipad11-pro-12.9.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
-                                <span class="text-primary me-1">$19.00</span>
-                                <span class="text-body text-decoration-line-through">$29.00</span>
+                                <a class="d-block h5 mb-2" href="">Ipad Pro 11 12.9inch</a>
+                                <span class="text-primary me-1">$1.099.00</span>
+                                <span class="text-body text-decoration-line-through">$1.299.00</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
@@ -139,13 +145,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/macbook-pro-M1.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
-                                <span class="text-primary me-1">$19.00</span>
-                                <span class="text-body text-decoration-line-through">$29.00</span>
+                                <a class="d-block h5 mb-2" href="">MacBook Pro M1</a>
+                                <span class="text-primary me-1">$1.599.00</span>
+                                <span class="text-body text-decoration-line-through">$1.699.00</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
@@ -160,13 +166,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/ipod3.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
-                                <span class="text-primary me-1">$19.00</span>
-                                <span class="text-body text-decoration-line-through">$29.00</span>
+                                <a class="d-block h5 mb-2" href="">Ipod 3</a>
+                                <span class="text-primary me-1">$199.00</span>
+                                <span class="text-body text-decoration-line-through">$299.00</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
@@ -181,13 +187,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/appleWatch-SE2022.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
-                                <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
-                                <span class="text-primary me-1">$19.00</span>
-                                <span class="text-body text-decoration-line-through">$29.00</span>
+                                <a class="d-block h5 mb-2" href="">Apple Watch-SE 2022</a>
+                                <span class="text-primary me-1">$399.00</span>
+                                <span class="text-body text-decoration-line-through">$599.00</span>
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
