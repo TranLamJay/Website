@@ -25,34 +25,37 @@
             <div id="tab-1" class="tab-pane fade show p-0 active">
                 <div class="row g-4">
                     <?php
-                    for($i=0;$i<5;$i++){
-                    echo '    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">';
-                    echo'   <div class="product-item">';
-                    echo'     <div class="position-relative bg-light overflow-hidden">';
-                    echo'        <img class="img-fluid w-100" src="img/product-1.jpg" alt="">';
-                    echo'<div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>';
-                    echo'</div>';
-                    echo'<div class="text-center p-4">';
-                    echo'<a class = "d-block h5 mb-2" href = "">Fresh Tomato</a>';
-                    echo'<span class="text-primary me-1">$19.00</span>';
-                    echo'<span class = "text-body text-decoration-line-through">$29.00</span>';
-                    echo'</div>';
-                    echo'<div class = "d-flex border-top">';
-                    echo'<small class="w-50 text-center border-end py-2">';
-                    echo'<a class = "text-body" href = ""><i class = "fa fa-eye text-primary me-2"></i>View detail</a>';
-                    echo'</small>';
-                    echo'<small class = "w-50 text-center py-2">';
-                    echo'<a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>';
-                    echo'</small>';
-                    echo'</div>';
-                    echo'</div>';
-                    echo'</div>';
+                    $arr_gia = array( 8,45, 15);
+                    include_once './lib/UTils/Random.php';
+                    $price = $arr_gia[random_number($arr_gia)];
+                    for ($i = 0; $i < 5; $i++) {
+                        echo '    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">';
+                        echo '   <div class="product-item">';
+                        echo '     <div class="position-relative bg-light overflow-hidden">';
+                        echo '        <img class="img-fluid w-100" src="img/iphone14-ProMax.jpg" alt="">';
+                        echo '<div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>';
+                        echo '</div>';
+                        echo '<div class="text-center p-4">';
+                        echo '<a class = "d-block h5 mb-2" href = "">Fresh Tomato</a>';
+                        echo '<span class="text-primary me-1">$19.00</span> <span style = "color: '.getColor($price).'">'.$price.'</span>';
+                        echo '<span class = "text-body text-decoration-line-through">$29.00</span>';
+                        echo '</div>';
+                        echo '<div class = "d-flex border-top">';
+                        echo '<small class="w-50 text-center border-end py-2">';
+                        echo '<a class = "text-body" href = ""><i class = "fa fa-eye text-primary me-2"></i>View detail</a>';
+                        echo '</small>';
+                        echo '<small class = "w-50 text-center py-2">';
+                        echo '<a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>';
+                        echo '</small>';
+                        echo '</div>';
+                        echo '</div>';
+                        echo '</div>';
                     }
                     ?>
                     <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="product-item">
                             <div class="position-relative bg-light overflow-hidden">
-                                <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="img/iphone14-pro.jpg" alt="">
                                 <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
                             </div>
                             <div class="text-center p-4">
