@@ -44,7 +44,7 @@
             </div>
             <div class="row g-5 justify-content-center">
                 <div class="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5">
+                    <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5" style="background: #1ad01a;">
                         <h5 class="text-white">Call Us</h5>
                         <p class="mb-5"><i class="fa fa-phone-alt me-3"></i>0779985933</p>
                         <h5 class="text-white">Email Us</h5>

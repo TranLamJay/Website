@@ -40,12 +40,13 @@
         <div class="container">
             <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="display-5 mb-3">Register</h1>
-                <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                <!-- <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p> -->
             </div>
             <div class="row g-5 justify-content-center">
                 <div class="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5">
-                        <h5 class="text-white">Call Us</h5>
+                    <img class="img-fluid w-100" src="img/login2.jpg">
+                        <!-- <h5 class="text-white">Call Us</h5>
                         <p class="mb-5"><i class="fa fa-phone-alt me-3"></i>0779985933</p>
                         <h5 class="text-white">Email Us</h5>
                         <p class="mb-5"><i class="fa fa-envelope me-3"></i>laimh1221@gmail.com</p>
@@ -57,7 +58,7 @@
                             <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/100042012109180"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-de    lay="0.5s">
@@ -99,7 +100,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Register</button>
+                                <input class="btn btn-primary rounded-pill py-3 px-5" type="submit" value="Register"></input>
                             </div>
                         </div>
                     </form>
@@ -111,11 +112,7 @@
 
 
     <!-- Google Map Start -->
-    <div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
-        <iframe class="w-100" style="height: 450px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.460455817!2d106.41503061948033!3d10.754666395974905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1665622637093!5m2!1svi!2s"
-            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
+    
     <!-- Google Map End -->
 
 
