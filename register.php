@@ -63,29 +63,29 @@
                 </div>
                 <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-de    lay="0.5s">
                     <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                    <form>
+                    <form action="register-controller.php" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="First Name">
+                                    <input type="text" name="contact-FirstName" class="form-control" id="name" placeholder="First Name">
                                     <label for="name">First Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Last Name">
+                                    <input type="text" name="contact-LastName" class="form-control" id="name" placeholder="Last Name">
                                     <label for="name">Last Name</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="New Email">
+                                    <input type="email" name="contact-NewEmail" class="form-control" id="email" placeholder="New Email">
                                     <label for="email">New Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="password" class="form-control" id="Password" placeholder="New Password">
+                                    <input type="password" name="contact-NewPassword" class="form-control" id="Password" placeholder="New Password">
                                     <label for="password">New Password</label>
                                     <!-- <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
                                     <label for="message">New Password</label> -->
@@ -93,14 +93,14 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="password" class="form-control" id="Password" placeholder="Confirm Password">
+                                    <input type="password" name="contact-ConfirmPassword" class="form-control" id="Password" placeholder="Confirm Password">
                                     <label for="password">Confirm Password</label>
                                     <!-- <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
                                     <label for="message">New Password</label> -->
                                 </div>
                             </div>
                             <div class="col-12">
-                                <input class="btn btn-primary rounded-pill py-3 px-5" type="submit" value="Register"></input>
+                                <input class="btn btn-primary rounded-pill py-3 px-5" type="submit" name="contact-register" value="Register"></input>
                             </div>
                         </div>
                     </form>
