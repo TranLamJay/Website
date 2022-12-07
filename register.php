@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-de    lay="0.5s">
                     <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                    <form action="register-controller.php" method="POST">
+                    <form action="./backend/register-controller/register-controller.php" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
