@@ -78,7 +78,7 @@ include_once "./header/header.php"
                         // $arr_gia = array( 8,45, 15);
                         // include_once './lib/UTils/Random.php';
                         // $price = $arr_gia[random_number($arr_gia)];
-                        for ($i = 0; $i < 5; $i++) {
+                        for ($i = 0; $i < 2; $i++) {
                             echo '    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">';
                             echo '   <div class="product-item">';
                             echo '     <div class="position-relative bg-light overflow-hidden">';
