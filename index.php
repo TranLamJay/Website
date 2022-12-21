@@ -182,7 +182,7 @@ include_once "./header/header.php"
                     <!-- <p class="text-white mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p> -->
                 </div>
                 <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="product.php">Shopping Cart</a>
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="product.php">Shopping</a>
                 </div>
             </div>
         </div>

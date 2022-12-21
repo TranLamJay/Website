@@ -1,6 +1,5 @@
 <?php
 //var_dump($_POST);
-echo $_POST['contact-login'] == 'Login';
 if (isset($_POST)) {
     if ($_POST['contact-login'] == 'Login') {
         $admin_email = $_POST['contact-email'];
@@ -18,3 +17,15 @@ if (isset($_POST)) {
         exit();
     }
 }
+
+// include "../Model/userModel.php";
+// if (isset($_POST) && !empty($_POST)) {
+//     $user = new User($_POST["contact-email"], MD5($_POST["contact-password"]));
+//    // $data = $user->getData($_POST["txt_username"]);
+//    // $data = $user->insertData($_POST["txt_username"], MD5($_POST["txt_password"]));
+//     // $user->deleteUser($_POST["txt_username"]);
+   
+// } else{
+//     echo $_GET["name"];
+// }
+?>

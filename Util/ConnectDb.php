@@ -15,7 +15,7 @@ class ConnectDb{
             $this->servername = "localhost";
             $this->username ="root";
             $this->password ="";
-            $this->dbname = "dbIphone";
+            $this->dbname = "iphoneshop";
         }
     }
 
@@ -37,6 +37,14 @@ class ConnectDb{
         $pdo = $dbCon->connect();
         $stmt = $pdo->prepare($sql);
         $stmt->execute($data);
+        $dbCon->disconnected();
+    }
+
+    public function getAllData($query) {
+        $dbCon = new ConnectDb("","","","");
+        $pdo = $dbCon->connect();
+        $stmt = $pdo->prepare($query);
+        $stmt->execute();
         $dbCon->disconnected();
     }
     

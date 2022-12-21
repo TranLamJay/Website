@@ -48,10 +48,10 @@
                         echo '</div>';
                         echo '<div class = "d-flex border-top">';
                         echo '<small class="w-50 text-center border-end py-2">';
-                        echo '<a class = "text-body" href = ""><i class = "fa fa-eye text-primary me-2"></i>View detail</a>';
+                        echo '<a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>';
                         echo '</small>';
                         echo '<small class = "w-50 text-center py-2">';
-                        echo '<a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>';
+                        echo '<a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>';
                         echo '</small>';
                         echo '</div>';
                         echo '</div>';
@@ -71,10 +71,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -92,10 +92,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -113,10 +113,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -134,10 +134,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -155,10 +155,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -176,10 +176,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -197,10 +197,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -225,10 +225,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -246,10 +246,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -267,10 +267,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -288,10 +288,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -309,10 +309,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -330,10 +330,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -351,10 +351,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -372,10 +372,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -400,10 +400,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -421,10 +421,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -442,10 +442,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -463,10 +463,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -484,10 +484,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -505,10 +505,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -526,10 +526,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -547,10 +547,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -575,10 +575,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -596,10 +596,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -617,10 +617,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -638,10 +638,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -659,10 +659,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -680,10 +680,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -701,10 +701,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -722,10 +722,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -750,10 +750,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -771,10 +771,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -792,10 +792,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -813,10 +813,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -834,10 +834,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -855,10 +855,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -876,10 +876,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>
@@ -897,10 +897,10 @@
                             </div>
                             <div class="d-flex border-top">
                                 <small class="w-50 text-center border-end py-2">
-                                    <a class="text-body" href=""><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    <a class = "text-body" href = "detail-product.php"><i class = "fa fa-eye text-primary me-2"></i>View detail</a>
                                 </small>
                                 <small class="w-50 text-center py-2">
-                                    <a class="text-body" href=""><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    <a class="text-body" href="shop.php"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
                                 </small>
                             </div>
                         </div>

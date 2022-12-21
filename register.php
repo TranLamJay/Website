@@ -67,14 +67,14 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" name="contact-FirstName" class="form-control" id="name" placeholder="First Name">
-                                    <label for="name">First Name</label>
+                                    <!-- <input type="text" name="contact-FirstName" class="form-control" id="name" placeholder="First Name">
+                                    <label for="name">First Name</label> -->
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" name="contact-LastName" class="form-control" id="name" placeholder="Last Name">
-                                    <label for="name">Last Name</label>
+                                    <!-- <input type="text" name="contact-LastName" class="form-control" id="name" placeholder="Last Name">
+                                    <label for="name">Last Name</label> -->
                                 </div>
                             </div>
                             <div class="col-12">
