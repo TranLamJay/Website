@@ -45,7 +45,9 @@ class ConnectDb{
         $pdo = $dbCon->connect();
         $stmt = $pdo->prepare($query);
         $stmt->execute();
+        $user = $stmt->fetchAll();
         $dbCon->disconnected();
+        return $user;
     }
     
     public function getData($sql,$data=array()) {
@@ -64,5 +66,13 @@ class ConnectDb{
         $stmt = $pdo->prepare($sql);
         $stmt->execute($data);
         $dbCon->disconnected();
+    }
+
+    public function update($sql,$data=array()) {
+        $dbCon = new ConnectDb("","","","");
+        $pdo = $dbCon->connect();
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute($data);
+        return $stmt->rowCount();
     }
 }

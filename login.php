@@ -63,8 +63,14 @@
                 </div>
                 <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
                     <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                    <form action="./backend/login-controller/login-controller.php" method="POST">
+                    <form action="./backend/Controller/login-controller.php" method="POST">
                         <div class="row g-3">
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" name="contact-username" class="form-control" id="email" placeholder="UserName">
+                                    <label for="username">UserName</label>
+                                </div>
+                            </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <input type="email" name="contact-email" class="form-control" id="email" placeholder="Email">

@@ -1,20 +1,30 @@
 <?php
-//var_dump($_POST);
+session_start();
+include_once "../Model/userModel.php";
+
 if (isset($_POST)) {
     if ($_POST['contact-login'] == 'Login') {
-        $admin_email = $_POST['contact-email'];
-        $admin_password = $_POST['contact-password'];
-        $admin_register = $_POST['contact-login'];
-        if ($admin_email == 'laimh1221@gmail.com' && $admin_password == '123456') {
+        $username = isset($_POST['contact-username'])?$_POST['contact-username']:"";
+        $email = isset($_POST['contact-email'])?$_POST['contact-email']:"";
+        $password = isset($_POST['contact-password'])?md5($_POST['contact-password']):"";
+
+        $user = new UserModel($username, $email, $password);
+       
+        $data = $user->getData();
+
+        
+        if ($email == $data['email'] && $password == $data['password']) {
+            $_SESSION['username'] = $data['name'];
+            $_SESSION['is_login'] = true;
             header("Location: ../../index.php");
-            exit();
+            // exit();
         } else {
             header("Location: ../../login.php");
-            exit();
+            // exit();
         }
     } else {
         header("Location: ../../login.php");
-        exit();
+        // exit();
     }
 }
 

@@ -22,10 +22,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
-                    <a href="product.php" class="nav-item nav-link">Products</a>
-                    <a href="blog.php" class="nav-item nav-link">Blog Grid</a>
-                    <a href="testimonial.php" class="nav-item nav-link">Testimonial</a>
+                    <a href="index.php" class="nav-item nav-link active">Trang chủ</a>
+                    <a href="product.php" class="nav-item nav-link">Sản phẩm</a>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
@@ -35,15 +33,34 @@
                             <a href="404.php" class="dropdown-item">404 Page</a>
                         </div>
                     </div> -->
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link">Liên hệ</a>
+                    <?php
+
+                        if(isset($_SESSION['username'])){
+                            ?>
+                                <a href="" class="nav-item nav-link">
+                                    Hi, <?php echo $_SESSION['username']; ?>
+                                </a>
+                                <a href="../website/backend/Controller/LogoutController.php" class="nav-item nav-link">Đăng xuất</a>
+                            <?php
+                        }
+                        else if (!isset($_SESSION['username'])) {
+                            ?>
+                                
                 </div>
                 <div class="d-none d-lg-flex ms-2">
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="login.php">
+                                    <small class="fa fa-user text-body"></small>
+                                </a>
+                            <?php
+                        }
+                    ?>
+
                     <a class="btn-sm-square bg-white rounded-circle ms-3" href="">
                         <small class="fa fa-search text-body"></small>
                     </a>
-                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="login.php">
-                        <small class="fa fa-user text-body"></small>
-                    </a>
+                
+                            
                     <a class="btn-sm-square bg-white rounded-circle ms-3" href="shop.php">
                         <small class="fa fa-shopping-bag text-body"></small>
                     </a>

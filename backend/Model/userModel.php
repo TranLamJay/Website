@@ -1,17 +1,23 @@
 <?php
 include_once "../Util/ConnectDB.php";
 class UserModel{
-    
+
+    private $username;  
     private $email;
     private $password;
     
-    public function __construct($email,$password){
-        
+    public function __construct($username,$email,$password){
+        $this->username = $username;
         $this->email = $email;
         $this->password = $password;
     }
     
-
+    public function setUsername($username){
+        $this->username = $username;    
+    }
+    public function getUsername(){
+        return $this->username;
+    }
     public function setEmail($email){
         $this->email = $email;    
     }
@@ -27,27 +33,27 @@ class UserModel{
 
     public function insertData() {
         $dbCon = new ConnectDb("","","","");
-
         $data = [
-            'username' => $this->username,
+            'name' => $this->username,
+            'email' => $this->email,
             'password' => $this->password
         ];
-        $sql = "INSERT INTO user(username, password) VALUES (:username, :password)";
+        $sql = "INSERT INTO user(name,email, password) VALUES (:name,:email, :password)";
         $dbCon->insertData($sql, $data);
     }
 
     public function getAllUser(){
         $dbCon = new ConnectDb("","","","");
-        $query = "SELECT email, password from user";
+        $query = "SELECT * FROM user";
         $data = $dbCon->getAllData($query);
         $dbCon->disconnected();
         return $data;
     }
 
-    public function getData($username) {
+    public function getData() {
         $dbCon = new ConnectDb("","","","");
-        $sql = "SELECT * FROM user WHERE username=:username";
-        $data = ['username' => $username];
+        $sql = "SELECT * FROM user WHERE email=:email";
+        $data = ['email' => $this->email];
         return $dbCon->getData($sql, $data);
     }
 

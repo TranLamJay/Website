@@ -38,7 +38,7 @@
 
     <!-- Product Start -->
     <?php
-    include './product/product.php';
+    include 'Iphone_product.php';
     ?>
     <!-- Product End -->
 
@@ -51,7 +51,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-light bg-icon py-6">
+    <!-- <div class="container-fluid bg-light bg-icon py-6">
         <div class="container">
             <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h1 class="display-5 mb-3">Customer Review</h1>
@@ -104,7 +104,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 

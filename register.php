@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-de    lay="0.5s">
                     <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                    <form action="./backend/register-controller/register-controller.php" method="POST">
+                    <form action="./backend/Controller/RegisterController.php" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -79,14 +79,20 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="email" name="contact-NewEmail" class="form-control" id="email" placeholder="New Email">
-                                    <label for="email">New Email</label>
+                                    <input type="text" name="contact-UserName" class="form-control" id="username" placeholder="UserName">
+                                    <label for="usename">UserName</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="password" name="contact-NewPassword" class="form-control" id="Password" placeholder="New Password">
-                                    <label for="password">New Password</label>
+                                    <input type="email" name="contact-NewEmail" class="form-control" id="email" placeholder="Email">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="password" name="contact-NewPassword" class="form-control" id="Password" placeholder="Password">
+                                    <label for="password">Password</label>
                                     <!-- <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
                                     <label for="message">New Password</label> -->
                                 </div>
