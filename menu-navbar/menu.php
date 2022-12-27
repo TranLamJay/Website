@@ -33,7 +33,7 @@
                             <a href="404.php" class="dropdown-item">404 Page</a>
                         </div>
                     </div> -->
-                    <a href="contact.php" class="nav-item nav-link">Liên hệ</a>
+                    <a href="blog.php" class="nav-item nav-link">Tin tức</a>
                     <?php
 
                         if(isset($_SESSION['username'])){

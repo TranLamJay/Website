@@ -2,6 +2,7 @@
 
 session_start();
 
+
 ?>
 
 <!DOCTYPE html>
@@ -97,19 +98,19 @@ include_once "./header/header.php"
                             echo "   <div class='product-item'>";
                             echo "     <div class='position-relative bg-light overflow-hidden'>";
                             echo "        <img class='img-fluid w-100' src='img/{$value['images']}' alt='>";
-                            echo "<div class='bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3'>New</div>";
+                            echo "<div class='bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3'></div>";
                             echo "</div>";
                             echo "<div class='text-center p-4'>";
                             echo "<a class = 'd-block h5 mb-2' href = ''>{$value['name']}</a>";
-                            echo "<span class='text-primary me-1'>{$value['price']}</span>"; //<span style = "color: ".getColor($price)."">".$price."</span>";
+                            echo "<div class='me-1' style='color:red'>{$value['price']}</div>"; //<span style = "color: ".getColor($price)."">".$price."</span>";
                             // echo "<span class = 'text-body text-decoration-line-through'>$2.100.00</span>";
                             echo "</div>";
                             echo "<div class = 'd-flex border-top'>";
                             echo "<small class='w-50 text-center border-end py-2'>";
-                            echo "<a class = 'text-body' href = ''><i class = 'fa fa-eye text-primary me-2'></i>View detail</a>";
+                            echo "<a class = 'text-body' href ='detail-product.php?id={$value['id']}'><i class = 'fa fa-eye text-primary me-2'></i>Xem chi tiết</a>";
                             echo "</small>";
                             echo "<small class = 'w-50 text-center py-2'>";
-                            echo "<a class='text-body' href=''><i class='fa fa-shopping-bag text-primary me-2'></i>Add to cart</a>";
+                            echo "<a class='text-body' name= 'order_action' value='add' href='./backend/Controller/OrderController.php'><i class='fa fa-shopping-bag text-primary me-2'></i>Thêm vào giỏ</a>";
                             echo "</small>";
                             echo "</div>";
                             echo "</div>";
